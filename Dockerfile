@@ -9,9 +9,11 @@ COPY package*.json ./
 RUN npm install
 COPY . .
 
-# Move dotenv configuration outside of the build step
-RUN npm install dotenv-cli
-RUN npx dotenv -e .env npm run build
+# Load environment variables
+COPY .env .env
+
+# Build static assets
+RUN npm run build
 
 # STEP 2 build a small nginx image with static website test
 FROM nginx:alpine
