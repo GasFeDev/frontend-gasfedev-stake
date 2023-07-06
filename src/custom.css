@@ -1,0 +1,337 @@
+/* Modal */
+[data-rk] .ju367v1n {
+  gap: 12px;
+}
+
+.iekbcc0.ju367vgo.ju367v11.ju367v16.ju367v1d.ju367v2q {
+  font-size: 0;
+  margin-bottom: 1%;
+}
+
+.iekbcc0.ju367vgo.ju367v11.ju367v16.ju367v1d.ju367v2q::after {
+  content: "Connect Wallet";
+  font-family: "Bai Jamjuree";
+  font-weight: bold;
+  font-size: 22px;
+  letter-spacing: normal;
+  color: #ffffff !important;
+}
+[data-rk] .ju367v7s {
+  display: none;
+}
+
+.iekbcc0.ju367vgu.ju367v11.ju367v14.ju367v1c.ju367v2q {
+  font-size: 0;
+  margin-bottom: 20px;
+}
+
+.iekbcc0.ju367vgu.ju367v11.ju367v14.ju367v1c.ju367v2q::after {
+  content: "Select your wallet provider";
+  font-size: 14px;
+  font-family: "Bai Jamjuree";
+  font-weight: normal;
+  color: #ffffff !important;
+}
+
+[data-rk] .ju367v1d {
+  font-size: 0;
+}
+
+[data-rk] .ju367v1d {
+  position: relative;
+  width: 100%;
+  font-size: 22px;
+  font-family: "Bai Jamjuree Regular";
+}
+
+[data-rk] .ju367v2m {
+  justify-content: space-between;
+  margin-bottom: 0px;
+}
+[data-rk] .ju367veu {
+  display: none;
+}
+
+[data-rk] ._1ckjpok1 {
+  width: 41.5vw;
+  height: 47vh;
+  bottom: 37px;
+}
+
+[data-rk] ._1ckjpok4 {
+  width: 41.5vw;
+  height: 47vh;
+}
+
+[data-rk] .ju367vz {
+  flex-direction: row;
+}
+
+[data-rk] .ju367v2i svg {
+  transform: scale(1.8);
+  position: relative;
+  bottom: 5px;
+}
+[data-rk] .iekbcc0.ju367v4.ju367vg3.ju367v26.ju367v2l.ju367v44 svg {
+  transform: scale(3.8);
+  position: relative;
+  bottom: 9px;
+  left: 12px;
+  margin-right: 17px;
+}
+
+[data-rk] .iekbcc0 {
+  font-family: "Bai Jamjuree";
+  font-weight: bold;
+  font-size: 22px;
+  letter-spacing: normal;
+}
+
+[data-rk] div.iekbcc0 {
+  font-family: "Bai Jamjuree";
+  font-weight: normal;
+  font-size: 16px;
+  border: transparent;
+}
+
+.iekbcc0.ju367vao.ju367v1z.ju367v52 {
+  display: none;
+}
+
+.iekbcc0.ju367v81.ju367v6a.ju367v6v.ju367v7g.ju367va.ju367v10.ju367v1i {
+  position: relative;
+  top: 30px;
+}
+
+.iekbcc0.ju367v75.ju367v7q.ju367v3c.ju367v6f.ju367v81 {
+  padding: 0;
+  margin: 0;
+}
+
+.iekbcc0._1ckjpok4._1ckjpok1.ju367vb0.ju367vdl.ju367vp.ju367vt.ju367vv.ju367vef.ju367va.ju367v10.ju367v67.ju367v8m {
+  padding: 0;
+  margin: 0;
+  height: 40vh;
+}
+
+.iekbcc0._1ckjpok1.ju367vb0.ju367vdl.ju367vp.ju367vt.ju367vv.ju367vef.ju367va.ju367v10.ju367v67.ju367v8m {
+  height: 40vh;
+}
+
+/* Account */
+
+[data-rk] .ju367v8 {
+  display: block;
+  background-color: transparent;
+}
+
+[data-rk] div.iekbcc0.ju367v8 {
+  font-size: 22px;
+  font-weight: normal;
+  font-family: "Bai Jamjuree";
+}
+
+[data-rk] .ju367v9x {
+  background: transparent !important;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Bai Jamjuree Bold";
+}
+
+[data-rk] .ju367v9x:hover {
+  color: #e632b2;
+}
+
+[data-rk] .iekbcc9 {
+  cursor: pointer;
+  text-align: center;
+}
+
+[data-rk] .ju367v9x path {
+  display: none;
+}
+
+[data-rk] ._12cbo8i5 svg {
+  position: relative;
+  bottom: 5px;
+}
+
+[data-rk] .ju367v1k {
+  gap: 36px;
+}
+
+div.iekbcc0.ju367v6x.ju367v7i.ju367v4.ju367va.ju367va {
+  visibility: hidden !important;
+}
+
+div.iekbcc0.ju367v6x.ju367v7i.ju367v4.ju367va.ju367va::after {
+  content: "Invalid Network" !important;
+  visibility: visible !important;
+  position: absolute;
+  font-family: "Bai Jamjuree";
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  color: #ffffff;
+  left: 25px;
+}
+
+[data-rk] .ju367v1k svg[fill="none"] {
+  fill: none;
+  position: relative;
+  height: 27px;
+  margin-top: 10px;
+  width: 14px;
+  left: 8px;
+}
+
+button.iekbcc0.iekbcc9.ju367v71.ju367v7m.ju367v86.ju367v6f.ju367v4.ju367va0.ju367vn.ju367vec.ju367vfr.ju367vb.ju367va.ju367v11.ju367v1c.ju367v1k.ju367v8o._12cbo8i3.ju367v8m._12cbo8i4._12cbo8i6 {
+  width: 205px;
+}
+
+@media (max-width: 1024px) {
+  .iekbcc0.ju367vgu.ju367v11.ju367v15.ju367v19.ju367v2q {
+    display: none;
+  }
+
+  .iekbcc0.ju367vgo.ju367v11.ju367v15.ju367v1c.ju367v2q {
+    font-size: 0;
+    margin-bottom: 20px;
+  }
+
+  .iekbcc0.ju367vgo.ju367v11.ju367v15.ju367v1c.ju367v2q::after {
+    content: "Select your wallet provider";
+    font-size: 14px;
+    font-family: "Bai Jamjuree";
+    font-weight: normal;
+    color: #ffffff !important;
+  }
+
+  .iekbcc0.ju367v76.ju367v7r.ju367v8f {
+    display: none;
+  }
+
+  .iekbcc0.ju367v76.ju367v7r {
+    transform: scale(0.8);
+    padding: 10px;
+  }
+
+  .iekbcc0.ju367vbl.ju367va.ju367v6l.ju367v85._1am14410 {
+    display: flex;
+  }
+  .iekbcc0.ju367v8m {
+    font-size: 15px;
+  }
+  .iekbcc0.ju367vgo.ju367v11.ju367v17.ju367v1c.ju367v2q {
+    display: contents;
+  }
+
+  .iekbcc0.iekbcc9.ju367v4.ju367v9u.ju367vc0.ju367vs.ju367vt.ju367vu.ju367vf9.ju367va.ju367v27.ju367v2l.ju367v8o.ju367v8z._12cbo8i3.ju367v8m._12cbo8i5._12cbo8i7 {
+    margin: 0px -16px 52px 0px;
+  }
+
+  .iekbcc0.ju367v4.ju367vg3.ju367v2a.ju367v2l.ju367v44 svg[fill="none"] {
+    height: auto;
+    width: 100%;
+    transform: scale(1.8);
+    position: relative;
+    bottom: 18%;
+  }
+
+  div.iekbcc0.ju367vg3.ju367v11.ju367v15.ju367v1c{
+    padding-left: 0;
+    margin-left: 0;
+    margin-bottom: 5%;
+  }
+
+  [data-rk] ._12cbo8i5 svg {
+    position: relative;
+    bottom: 5px;
+    right: 0px;
+    transform: scale(1.5);
+  }
+
+  [data-rk] .ju367vg3 {
+    position: relative;
+    margin-left: 6%;
+  }
+}
+
+@media (max-width: 992px) {
+  [data-rk] ._1ckjpok1,
+  [data-rk] ._1ckjpok4 {
+    width: 98vw !important;
+    height: auto !important;
+    bottom: auto !important;
+  }
+
+  [data-rk] .iekbcc0.ju367v4.ju367vg3.ju367v26.ju367v2l.ju367v44 svg {
+    transform: scale(3.8);
+    position: relative;
+    bottom: 9px;
+    left: 6px;
+    margin-right: 11px;
+  }
+
+  button.iekbcc0.iekbcc9.ju367v71.ju367v7m.ju367v86.ju367v6f.ju367v4.ju367va0.ju367vn.ju367vec.ju367vfr.ju367vb.ju367va.ju367v11.ju367v1c.ju367v1k.ju367v8o._12cbo8i3.ju367v8m._12cbo8i4._12cbo8i6 {
+    width: 100% !important;
+  }
+
+}
+
+@media (max-width: 576px) {
+  [data-rk] .ju367v1k {
+    gap: 20px;
+  }
+
+  div.iekbcc0.ju367v6x.ju367v7i.ju367v4.ju367va.ju367va::after {
+    font-size: 16px;
+    left: 15px;
+  }
+}
+
+@media (max-height: 900px) {
+  .iekbcc0._1ckjpok4._1ckjpok1.ju367vb0.ju367vdl.ju367vp.ju367vt.ju367vv.ju367vef.ju367va.ju367v10.ju367v67.ju367v8m {
+    height: 45vh;
+  }
+  .iekbcc0._1ckjpok1.ju367vb0.ju367vdl.ju367vp.ju367vt.ju367vv.ju367vef.ju367va.ju367v10.ju367v67.ju367v8m {
+    height: 45vh;
+  }
+}
+
+@media (max-height: 800px) {
+  .iekbcc0._1ckjpok4._1ckjpok1.ju367vb0.ju367vdl.ju367vp.ju367vt.ju367vv.ju367vef.ju367va.ju367v10.ju367v67.ju367v8m {
+    height: 50vh;
+  }
+  .iekbcc0._1ckjpok1.ju367vb0.ju367vdl.ju367vp.ju367vt.ju367vv.ju367vef.ju367va.ju367v10.ju367v67.ju367v8m {
+    height: 55vh;
+  }
+}
+
+@media (max-height: 700px) {
+  .iekbcc0._1ckjpok4._1ckjpok1.ju367vb0.ju367vdl.ju367vp.ju367vt.ju367vv.ju367vef.ju367va.ju367v10.ju367v67.ju367v8m {
+    height: 55vh;
+  }
+  .iekbcc0._1ckjpok1.ju367vb0.ju367vdl.ju367vp.ju367vt.ju367vv.ju367vef.ju367va.ju367v10.ju367v67.ju367v8m {
+    height: 60vh;
+  }
+}
+
+@media (max-height: 600px) {
+  .iekbcc0._1ckjpok4._1ckjpok1.ju367vb0.ju367vdl.ju367vp.ju367vt.ju367vv.ju367vef.ju367va.ju367v10.ju367v67.ju367v8m {
+    height: 62vh;
+  }
+  .iekbcc0._1ckjpok1.ju367vb0.ju367vdl.ju367vp.ju367vt.ju367vv.ju367vef.ju367va.ju367v10.ju367v67.ju367v8m {
+    height: 70vh;
+  }
+}
+
+@media (max-height: 500px) {
+  .iekbcc0._1ckjpok4._1ckjpok1.ju367vb0.ju367vdl.ju367vp.ju367vt.ju367vv.ju367vef.ju367va.ju367v10.ju367v67.ju367v8m {
+    height: 70vh;
+  }
+  .iekbcc0._1ckjpok1.ju367vb0.ju367vdl.ju367vp.ju367vt.ju367vv.ju367vef.ju367va.ju367v10.ju367v67.ju367v8m {
+    height: 85vh;
+  }
+}

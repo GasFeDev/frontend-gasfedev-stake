@@ -1,0 +1,22 @@
+.connect-button-supported {
+  display: flex;
+  align-items: center;
+  background: transparent;
+  color: #ffffff;
+  font-weight: 400;
+  border: transparent;
+}
+
+.connect-img {
+  margin-right: 5px;
+}
+
+.connect-button-unsupported {
+  color: red;
+  background-color: rgba(10, 0, 33, 1) !important;
+  font-family: "Bai Jamjuree Regular", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  border: transparent;
+  padding-left: 8px;
+}

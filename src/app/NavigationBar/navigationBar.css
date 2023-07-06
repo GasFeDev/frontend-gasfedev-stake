@@ -1,0 +1,202 @@
+.dropdown-menu {
+  background-color: rgba(10, 0, 33, 1);
+}
+
+.dropdown-menu a {
+  color: white !important;
+}
+
+.dropdown-menu a:hover {
+  background-color: rgba(10, 0, 33, 1) !important;
+}
+
+.nab-border {
+  border-bottom: 1px solid rgb(141, 14, 135);
+  overflow-y: inherit;
+  height: auto;
+}
+
+.custom-button {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+}
+
+.custom-button:hover img {
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.logo-dega {
+  width: 120px;
+  height: 40px;
+  background: transparent;
+}
+
+.vaults-dega {
+  width: 136px;
+  height: 35px;
+  margin-left: 50px;
+  background: linear-gradient(180deg, #010003 0%, #0a0020 56.88%, #0a0020 100%);
+}
+
+.info-dega {
+  width: 120px;
+  height: 35px;
+  margin-left: 30px;
+  margin-top: 2px;
+  background: linear-gradient(180deg, #010003 0%, #0a0020 56.88%, #0a0020 100%);
+}
+
+.custom-button {
+  margin-left: 10px;
+}
+
+.ml-auto {
+  margin-left: auto !important;
+}
+
+.connect-dega {
+  width: 270px;
+  height: 55px;
+}
+
+.connect-iconEth {
+  width: 24px;
+  height: 22px;
+}
+
+.connect-iconMatic {
+  width: 33px;
+  height: 33px;
+  margin: -7px -4px -7px 0px;
+}
+
+.custom-linkVaults {
+  font-family: "Bai Jamjuree";
+  padding: 1vw 4vw;
+  background-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.custom-linkVaults:hover {
+  color: #e632b2;
+}
+
+.custom-linkInfo {
+  font-family: "Bai Jamjuree";
+  padding: 1vw 4vw;
+  background-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 -30px 0 25px;
+}
+
+.custom-linkInfo:hover {
+  color: #e632b2;
+}
+
+.more-vert {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  left: 220px;
+  transform: scale(0.8);
+}
+
+.navbar-collapse.expanded {
+  width: 100%;
+}
+
+.navbar-collapse.expanded .custom-linkInfo {
+  margin-right: 1.5%;
+  margin-top: 0%;
+  margin-bottom: -3%;
+}
+
+.navbar-collapse.expanded .custom-linkVaults {
+  margin-left: 0.5%;
+}
+
+.navbar-collapse.expanded .more-vert {
+  position: relative;
+  top: 43px;
+  margin-right: 285px;
+}
+
+[data-rk] .ju367v9x {
+  border: transparent;
+}
+
+.navbar-collapse.expanded .custom-linkVaults::after,
+.navbar-collapse.expanded .custom-linkInfo::after {
+  content: "";
+}
+
+.navbar-collapse.expanded .connect-button {
+  margin-left: 10px;
+}
+
+.navbar-collapse {
+  transition: all 0.3s ease;
+}
+
+.navbar-collapse.expanded {
+  max-height: 500px;
+}
+
+@media screen and (max-width: 990px) {
+  .ml-auto {
+    display: flex;
+    align-content: center;
+    align-items: center;
+  }
+  .nab-border {
+    height: auto;
+  }
+
+  .custom-linkInfo.nav-link {
+    padding: 0;
+    margin: 0;
+  }
+
+  .navbar-collapse.expanded .custom-linkInfo {
+    margin-right: 0;
+  }
+
+  .navbar-collapse.expanded .custom-linkVaults {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .navbar-collapse.expanded {
+    padding: 10px;
+    margin-top: 2%;
+  }
+
+  .navbar-collapse.expanded .custom-linkInfo {
+    margin-right: 2.5%;
+    margin-top: 6%;
+    margin-bottom: -6.5%;
+  }
+}
+
+@media screen and (max-width: 310px) {
+  .navbar-collapse.expanded {
+    padding: 0px;
+    margin-top: 2%;
+    position: relative;
+    margin-left: -10%;
+  }
+}
+
+@media (max-height: 900px) {
+  .nab-border {
+    overflow-y: inherit;
+    height: auto;
+  }
+}
