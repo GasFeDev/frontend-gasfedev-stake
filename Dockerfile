@@ -6,7 +6,7 @@ WORKDIR /app
 
 ENV PORT 8080
 
-COPY ./package.json ./
+COPY package*.json ./
 
 RUN yarn install
 RUN yarn global add ts-node
