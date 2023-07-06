@@ -9,9 +9,6 @@ COPY package*.json ./
 RUN npm install
 COPY . .
 
-# Load environment variables
-COPY .env .env
-
 # Build static assets
 RUN npm run build
 
