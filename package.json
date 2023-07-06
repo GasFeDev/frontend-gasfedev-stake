@@ -9,7 +9,6 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.3",
-    "dotenv": "^8.2.0",
     "ethers": "^5.7.2",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.4",
@@ -48,6 +47,7 @@
     ]
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.22.4"
+    "@babel/preset-env": "^7.22.4",
+    "dotenv": "^16.3.1"
   }
 }
