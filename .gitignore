@@ -27,4 +27,4 @@ yarn-error.log*
 .vercel
 .firebase
 .firebaserc
-firebase.json
+firebase.json.env
