@@ -14,7 +14,6 @@
 # misc
 .DS_Store
 .env
-generateEnv.js
 .env.production
 .env.local
 .env.development.local
@@ -29,3 +28,5 @@ yarn-error.log*
 .firebase
 .firebaserc
 firebase.json
+
+Dockerfile
