@@ -19,11 +19,12 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts --openssl-legacy-provider build && cp build/index.html build/404.html",
+    "start": "env-cmd -f .env react-scripts start",
+    "build": "env-cmd -f .env.production react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -48,6 +49,7 @@
   },
   "devDependencies": {
     "@babel/preset-env": "^7.22.4",
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.3.1",
+    "env-cmd": "^10.1.0"
   }
 }
