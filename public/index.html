@@ -30,9 +30,9 @@
     <!-- Include your environment variables here -->
     <script>
       window.env = {
-        REACT_APP_ALCHEMY_API_KEY: "${process.env.REACT_APP_ALCHEMY_API_KEY}",
+        REACT_APP_ALCHEMY_API_KEY: process.env.REACT_APP_ALCHEMY_API_KEY,
         REACT_APP_PROJECTID_WALLET_CONNECT:
-          "${process.env.REACT_APP_PROJECTID_WALLET_CONNECT}",
+          process.env.REACT_APP_PROJECTID_WALLET_CONNECT,
       };
     </script>
   </head>

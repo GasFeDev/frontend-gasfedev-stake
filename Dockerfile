@@ -9,6 +9,9 @@ COPY package*.json ./
 RUN npm install
 COPY . .
 
+# Install Node.js as devDependencies
+RUN apk add --no-cache nodejs npm
+
 # Build static assets
 RUN npm run build
 
