@@ -19,13 +19,25 @@ COPY ./nginx.conf /etc/nginx/conf.d/configfile.template
 # Remove default nginx website
 RUN rm -rf /usr/share/nginx/html/*
 
-# Install env-cmd
-RUN npm install -g env-cmd
+# Copy static assets to nginx image
+COPY --from=builder /app/build /usr/share/nginx/html
 
-# Copy .env file
-COPY .env .env
+# Set environment variables from GitHub secrets
+ARG REACT_APP_ISPO_CONTRACT_ETH
+ARG REACT_APP_STETH_CONTRACT
+ARG REACT_APP_ISPO_CONTRACT_POLYGON
+ARG REACT_APP_STMATIC_CONTRACT
+ARG REACT_APP_ALCHEMY_API_KEY
+ARG REACT_APP_PROJECTID_WALLET_CONNECT
 
-# Set environment variables and start Nginx
+ENV REACT_APP_ISPO_CONTRACT_ETH=$REACT_APP_ISPO_CONTRACT_ETH
+ENV REACT_APP_STETH_CONTRACT=$REACT_APP_STETH_CONTRACT
+ENV REACT_APP_ISPO_CONTRACT_POLYGON=$REACT_APP_ISPO_CONTRACT_POLYGON
+ENV REACT_APP_STMATIC_CONTRACT=$REACT_APP_STMATIC_CONTRACT
+ENV REACT_APP_ALCHEMY_API_KEY=$REACT_APP_ALCHEMY_API_KEY
+ENV REACT_APP_PROJECTID_WALLET_CONNECT=$REACT_APP_PROJECTID_WALLET_CONNECT
+
 ENV PORT 8080
 ENV HOST 0.0.0.0
-CMD sh -c "env-cmd -f .env envsubst '\$PORT' < /etc/nginx/conf.d/configfile.template > /etc/nginx/conf.d/default.conf && nginx -g 'daemon off;'"
+EXPOSE 80
+CMD sh -c "envsubst '\$PORT' < /etc/nginx/conf.d/configfile.template > /etc/nginx/conf.d/default.conf && nginx -g 'daemon off;'"
