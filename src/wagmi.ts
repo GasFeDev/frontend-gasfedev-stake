@@ -16,8 +16,7 @@ declare const window: CustomWindow;
 
 /* const alchemyApiKey = window.env.REACT_APP_ALCHEMY_API_KEY!;
 const wallectConnectProjectId = window.env.REACT_APP_PROJECTID_WALLET_CONNECT; */
-
-const alchemyApiKey = process.env.REACT_APP_ALCHEMY_API_KEY!;
+const alchemyApiKey = window.env.REACT_APP_ALCHEMY_API_KEY!;
 const wallectConnectProjectId = "d5f62bd5f563583be230f939b64c9e14"
 
 const { chains, provider, webSocketProvider } = configureChains(
